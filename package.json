@@ -1,0 +1,29 @@
+{
+  "name": "htmldnd",
+  "version": "1.0.0",
+  "description": "Ejemplo de Drag and Drop de HTML5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git push origin master && git push origin master --tags",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmagrosoto/htmlDnD.git"
+  },
+  "keywords": [
+    "fmagrosoto",
+    "digitae",
+    "tutoriales"
+  ],
+  "author": "Fernando Magrosoto V. <fmagrosoto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmagrosoto/htmlDnD/issues"
+  },
+  "homepage": "https://github.com/fmagrosoto/htmlDnD#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
