@@ -12,20 +12,33 @@
     <h1>Ejemplo de Drag and Drop</h1>
     <hr />
     <div id="elContenedor" class="contenedor">
-      <div class="cajas" draggable="true">
+      <div class="cajas" draggable="true" data-pos="1">
         <h2>Esta es la caja 1</h2>
+        <span class="token">979290337543224</span>
       </div>
-      <div class="cajas" draggable="true">
+      <div class="cajas" draggable="true" data-pos="2">
         <h2>Esta es la caja 2</h2>
+        <span class="token">706523785924589</span>
       </div>
-      <div class="cajas" draggable="true">
+      <div class="cajas" draggable="true" data-pos="3">
         <h2>Esta es la caja 3</h2>
+        <span class="token">998517911937432</span>
       </div>
-      <div class="cajas" draggable="true">
+      <div class="cajas" draggable="true" data-pos="4">
         <h2>Esta es la caja 4</h2>
+        <span class="token">268693889601236</span>
       </div>
     </div>
     <hr />
+    <button id="verOrden" type="button" class="boton" disabled>Verificar orden</button>
+    <hr />
+
+    <p>
+      La finalidad de este ejericio es el poder reacomodar un conjunto de elementos,
+      como podrían ser algunas imágenes de algún carrusel, de manera interactiva,
+      valiéndonos del <code>API</code> de <code>HTML5</code> conocido como <em>DnD</em>,
+      es decir, <strong>DRAG AND DROP</strong>.
+    </p>
 
     <script src="/dnd.js"></script>
   </body>

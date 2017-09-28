@@ -36,6 +36,7 @@
       dragSrcEl.innerHTML = this.innerHTML;
       this.innerHTML = e.dataTransfer.getData('text/html');
     }
+    document.getElementById('verOrden').disabled = false;
     return false;
   }
 
@@ -48,5 +49,16 @@
     caja.addEventListener('dragover', iniDragOver, false);
     caja.addEventListener('drop', iniDrop, false);
   });
+
+
+  function verificarOrden() {
+    console.log('###############################');
+    var tokens = document.querySelectorAll('.token');
+    [].forEach.call(tokens, function (token) {
+      console.log(token.textContent + ' => ' + token.parentElement.dataset.pos);
+    });
+  }
+
+  document.getElementById('verOrden').addEventListener('click', verificarOrden, false);
 
 })();

@@ -27,6 +27,10 @@ h1 {
   padding: 2em 1em;
 }
 
+.contenedor > .cajas .token {
+  color: rgb(200,150,150);
+}
+
 .contenedor .over {
   border-style: dashed;
   border-width: 10px;
@@ -47,4 +51,25 @@ h2 {
 [draggable] {
   cursor: move;
   user-select: none;
+}
+
+.boton {
+  background: linear-gradient(rgb(100,100,200), rgb(15,15,225));
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 1em 1.5em;
+}
+
+.boton:hover {
+  background: linear-gradient(rgb(100,100,200), rgb(15,15,150));
+}
+
+.boton:disabled {
+  background: linear-gradient(rgb(100,100,100), rgb(120,120,120));
+  color: rgb(200,200,200);
+  cursor: not-allowed;
 }
