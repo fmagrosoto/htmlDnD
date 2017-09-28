@@ -15,3 +15,7 @@ Después, podrás correr la aplicación haciendo:
 ```node index```
 
 Autor: Fernando Magrosoto Vásquez [@fmagrosoto](https://twitter.com/fmagrosoto)
+
+> Esta pieza de código está tomado de un tutorial creado por [Eric Bidelman](https://twitter.com/ebidel) y lo puedes encontrar en [esta liga](https://www.html5rocks.com/es/tutorials/dnd/basics/).
+
+Modifiqué el código para que se adaptara a mis necesidades.
