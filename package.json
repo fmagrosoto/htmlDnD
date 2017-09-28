@@ -1,6 +1,6 @@
 {
   "name": "htmldnd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ejemplo de Drag and Drop de HTML5",
   "main": "index.js",
   "scripts": {
