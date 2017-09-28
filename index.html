@@ -3,8 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Ejemplo de Drag and Drop</title>
+    <meta name="author" content="Fernando Magrosoto" />
+    <meta name="description" content="Ejemplo de Drag and Drop del HTML5" />
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
-    <h1>Probando</h1>
+    <h1>Ejemplo de Drag and Drop</h1>
+    <hr />
+    <div id="elContenedor" class="contenedor">
+      <div class="cajas" draggable="true">
+        <h2>Esta es la caja 1</h2>
+      </div>
+      <div class="cajas" draggable="true">
+        <h2>Esta es la caja 2</h2>
+      </div>
+      <div class="cajas" draggable="true">
+        <h2>Esta es la caja 3</h2>
+      </div>
+      <div class="cajas" draggable="true">
+        <h2>Esta es la caja 4</h2>
+      </div>
+    </div>
+    <hr />
+
+    <script src="/dnd.js"></script>
   </body>
 </html>

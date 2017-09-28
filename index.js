@@ -9,7 +9,7 @@ app.get('/',function(req,res){
 
 // Uso general en cualquier árbol de directorios
 // ¡Esta es la ley!
-app.use(express.static('/'));
+app.use(express.static('./'));
 
 app.listen(3501,function(){
     console.log('!Corriendo DnD en el puerto 3501!');

@@ -1,0 +1,50 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin: auto;
+  width: 850px;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.contenedor {
+  background: white;
+  border: 1px gray solid;
+  box-shadow: 5px 5px 10px rgba(100,100,100,.5);
+  margin: 2em 0;
+  padding: 1em;
+}
+
+.contenedor > .cajas {
+  background: linear-gradient(rgb(200,0,0), rgb(150,0,0));
+  border: 3px rgb(100,0,0) solid;
+  border-radius: 10px;
+  color: white;
+  cursor: move;
+  margin-bottom: 1em;
+  padding: 2em 1em;
+}
+
+.contenedor .over {
+  border-style: dashed;
+  border-width: 10px;
+}
+
+.contenedor > .cajas:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+
+[draggable] {
+  cursor: move;
+  user-select: none;
+}
